@@ -1,7 +1,7 @@
 FROM python
 WORKDIR /app
 ADD . /app
-RUN pip install -r Aaron.txt
+RUN pip install -r aaron.txt
 EXPOSE 80
 ENV NAME world
 CMD [“python”, “app.py”]
